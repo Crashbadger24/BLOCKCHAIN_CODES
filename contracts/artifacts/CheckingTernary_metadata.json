@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "checkNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/sample2.sol": "CheckingTernary"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/sample2.sol": {
+			"keccak256": "0x416dcace5a5c2127dece8c772aca3a65b103a30b2255a126ad558980141677f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b669a3e8a0cc9e4fffd58273429c143f2c674fbfd43a36465a772f1353a21d10",
+				"dweb:/ipfs/QmPyY3nF6c2CcPqeh2DExzqjTMc5W1R2u3vtfKvrM1gPev"
+			]
+		}
+	},
+	"version": 1
+}
