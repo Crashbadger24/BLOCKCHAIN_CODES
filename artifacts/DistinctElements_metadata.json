@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "distinct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task3_lab4.sol": "DistinctElements"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task3_lab4.sol": {
+			"keccak256": "0x02719a7fbfcc12b932780d34ffb2cd9e75d556bab7208dd4906af10ce80a9c11",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6838386cca2552bcf9ae68c0ddb03dedd2bc3d6ee8b5b4bd426a0deaafabdf06",
+				"dweb:/ipfs/QmeDYCqFgM9iDA3Ro4xgGBq3qWBR92NuDWSQRx3FF57E1i"
+			]
+		}
+	},
+	"version": 1
+}
