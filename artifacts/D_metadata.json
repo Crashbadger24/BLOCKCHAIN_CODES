@@ -6,22 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "a",
-						"type": "int256"
-					}
-				],
-				"name": "find",
+				"inputs": [],
+				"name": "readData",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -38,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task1_lab4.sol": "RemainderCalculator"
+			"task3_lab5.sol": "D"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -52,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"task1_lab4.sol": {
-			"keccak256": "0xbb637f4836b969054a430e6a2ef15123c9410529703985e694da20d34fe9bfb0",
-			"license": "MIT",
+		"task3_lab5.sol": {
+			"keccak256": "0x413584706cf713c42bebf2bd2d462dc5e314807c23878be01d0e90ae6b0ab122",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cfdf3c1bf4d56b4e35f232d3eb433a1077bcae5bea14cbb18f29c2fc91885f5d",
-				"dweb:/ipfs/QmUMEaP76aWiZ8bSSqwXio6QyrMZv79np4gXFv4nGj3gQY"
+				"bzz-raw://5a136d37759e63b7f653603f5a81d46779f8aae1b891b3756c622fe0281d3864",
+				"dweb:/ipfs/QmUo6eJPsL4WJ3d1V8uLaC1bZ4AD6g3QyuATPk1qo8brTw"
 			]
 		}
 	},

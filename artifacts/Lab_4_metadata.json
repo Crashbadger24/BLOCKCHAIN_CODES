@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "var1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "var2",
+						"type": "uint256"
+					}
+				],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task1_lab5.sol": "Lab_4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task1_lab5.sol": {
+			"keccak256": "0x9eadd1ecbbb956ea0e3324ad8f97af0621037d1b6a533054d295d9b5fe77d0a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2864f4fa18bcaacae1598c318b242a480c316b932d84c5bf8eb1e5c696d8ed5",
+				"dweb:/ipfs/QmXCHMBXBKdWgHUjPGcBzsiJQJkBj51bqFAoRyif7yXGaG"
+			]
+		}
+	},
+	"version": 1
+}
